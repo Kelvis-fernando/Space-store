@@ -24,13 +24,19 @@
 
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item font-hover ">
-                                <a class="nav-link font active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link font active" aria-current="page" href="{{route('site.home')}}">Pagina Inicial</a>
                             </li>
                             <li class="nav-item font-hover">
-                                <a class="nav-link font" href="#" tabindex="-1">Link</a>
+                                <a class="nav-link font" href="{{route('site.products')}}" tabindex="-1">Produtos</a>
                             </li>
                             <li class="nav-item font-hover">
-                                <a class="nav-link font" href="#" tabindex="1">Disabled</a>
+                                <a class="nav-link font" href="{{route('site.blog')}}" tabindex="1">Blog</a>
+                            </li>
+                            <li class="nav-item font-hover">
+                                <a class="nav-link font" href="{{route('site.about')}}" tabindex="1">Sobre</a>
+                            </li>
+                            <li class="nav-item font-hover">
+                                <a class="nav-link font" href="{{route('site.contact')}}" tabindex="1">Contato</a>
                             </li>
                         </ul>
                 </form>
@@ -40,8 +46,8 @@
 
     @yield('content')
 
-    <footer>
-        
+    <footer class="bg-dark footer-s">
+        <h5 class="text-light align-h5">Copyright © 2020 Logo Ipsom | Todos os direitos reservados.</h5>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

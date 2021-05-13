@@ -1,0 +1,42 @@
+/* Start Global */
+*, *:before, *:after {
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    @media (max-width: 720px) {
+    font-size: 87.5%; /*14px*/
+    }
+
+    @media (max-width: 1080px) {
+    font-size: 93.75%; /*15px*/
+    }
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    font-family: 'Antonio', sans-serif;
+}
+/* End Global */
+
+.font {
+    font-size: 1.2rem;
+}
+
+.font-hover a:hover {
+    border-bottom: 2px #333 solid;
+}
+
+.content-main-margin {
+    margin: 2rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -40,3 +40,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.footer-s {
+    height: 100px;
+    width: 100%;
+}
+
+.align-h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -14,7 +14,7 @@ Route::get('blog', 'App\Http\Controllers\BlogController@index')->name('site.blog
 
 //SOBRE
 Route::get('sobre', function () {
-    return view('site.about.index')->name('site.about');
+    return view('site.about.index');
 })->name('site.about');
 
 //CONTATO

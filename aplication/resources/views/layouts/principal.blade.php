@@ -31,13 +31,13 @@
                                 <a class="nav-link font" href="{{route('site.products')}}" tabindex="-1">Produtos</a>
                             </li>
                             <li class="nav-item font-hover">
-                                <a class="nav-link font" href="{{route('site.blog')}}" tabindex="1">Blog</a>
-                            </li>
-                            <li class="nav-item font-hover">
                                 <a class="nav-link font" href="{{route('site.about')}}" tabindex="1">Sobre</a>
                             </li>
                             <li class="nav-item font-hover">
                                 <a class="nav-link font" href="{{route('site.contact')}}" tabindex="1">Contato</a>
+                            </li>
+                            <li class="nav-item font-hover">
+                                <a class="nav-link font" href="{{route('site.blog')}}" tabindex="1">Blog</a>
                             </li>
                         </ul>
                 </form>

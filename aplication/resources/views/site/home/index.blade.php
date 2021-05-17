@@ -35,76 +35,35 @@
 
     </div>
 
-    <div class="content-main-margin">
-        <div class="row">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="{{ asset('img/empresa.png') }}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="{{ asset('img/empresa.png') }}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="{{ asset('img/empresa.png') }}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="green-background">
+        <div class=""></div>
 
-    <div class="content-main-margin">
-        <div class="row">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="{{ asset('img/empresa.png') }}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="{{ asset('img/empresa.png') }}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="{{ asset('img/empresa.png') }}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        <div class="main-wrapper split-content">
+            <!-- Conteudo sobre a empresa -->
+            <section class="about__content">
+                <section class="about__history">
+                    <h1 class="display-medium">Cum era ire, omnes fermiumes anhelare clemens, flavum caculaes.</h1>
+                    <p><strong>Brema :</strong>Eheu, barbatus consilium! Rumor emeritis mensa est. Sunt lunaes imitari talis, flavum eraes. Sunt lumenes carpseris talis, superbus capioes. </p>
+                    <p><strong>Sala </strong>Naviss sunt classiss de altus racana. Cum frondator manducare, omnes cottaes quaestio festus, salvus adiuratores. </p>
+                    <p><strong>Antverpia :</strong>Cur axona nocere? Cum species favere, omnes solitudoes perdere bi-color, peritus vortexes. Est albus silva, cesaris.</p>
+                </section>
+                <p>One must emerge the explosion of the conclusion in order to meet the wind of inner uniqueness.</p>
 
+                <section class="about__clients">
+                    <div class="about__clients__logos">
+                        <img src="{{asset('img/logo-5.svg')}}" alt="">
+                        <img src="{{asset('img/logo-6.svg')}}" alt="">
+                        <img src="{{asset('img/logo-7.svg')}}" alt="">
+                        <img src="{{asset('img/logo-8.svg')}}" alt="">
+                    </div>
+                </section>
+            </section>
+
+            <!-- Imagem valores da empresa -->
+            <section class="about__img__values">
+                <img src="{{asset('img/Pilares.svg')}}" alt="">
+            </section>
+        </div>
     </div>
 </main>
 

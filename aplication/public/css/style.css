@@ -30,8 +30,13 @@ body {
     font-size: 1.2rem;
 }
 
+.font a{
+    color: black;
+}
+
 .font-hover a:hover {
-    border-bottom: 2px #333 solid;
+    border-bottom: 2px #57802E solid;
+    color: #57802E;
 }
 
 .content-main-margin {

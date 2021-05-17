@@ -22,7 +22,23 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
+                        <!-- teste-->
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item font-hover font">
+                                <a class="nav-link font" aria-current="page" href="{{route('site.home')}}">Home</a>
+                            </li>
+                            <li class="nav-item font-hover font">
+                                <a class="nav-link font" href="{{route('site.products')}}">Produtos</a>
+                            </li>
+                            <li class="nav-item font-hover font">
+                                <a class="nav-link font" href="{{route('site.contact')}}" tabindex="-1">Contato</a>
+                            </li>
+                            <li class="nav-item font-hover font">
+                                <a class="nav-link font" href="{{route('site.blog')}}" tabindex="-1">Blog</a>
+                            </li>
+                        </ul>
+                        <!-- teste-->
+                        <!-- 
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item font-hover ">
                                 <a class="nav-link font active" aria-current="page" href="{{route('site.home')}}">Pagina Inicial</a>
@@ -40,6 +56,7 @@
                                 <a class="nav-link font" href="{{route('site.blog')}}" tabindex="1">Blog</a>
                             </li>
                         </ul>
+                        teste-->
                 </form>
             </div>
         </nav>

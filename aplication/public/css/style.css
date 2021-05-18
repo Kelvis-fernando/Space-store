@@ -25,6 +25,9 @@ body {
     font-family: 'Antonio', sans-serif;
 }
 /* End Global */
+#product {
+    background-color: #2a526f;
+}
 
 .font {
     font-size: 1.2rem;

@@ -13,13 +13,13 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('img/slide-1.jpg')}} " width="100%" height="600px" class="d-block w-100" alt="...">
+                <img src="{{asset('img/slide/slide-1.jpg')}} " width="100%" height="600px" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="{{asset('img/slide-2.jpg')}}" width="100%" height="600px" class="d-block w-100" alt="...">
+                <img src="{{asset('img/slide/slide-2.jpg')}}" width="100%" height="600px" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="{{asset('img/slide-3.jpg')}}" width="100%" height="600px" class="d-block w-100" alt="...">
+                <img src="{{asset('img/slide/slide-3.jpg')}}" width="100%" height="600px" class="d-block w-100" alt="...">
             </div>
         </div>
 
@@ -51,17 +51,17 @@
 
                 <section class="about__clients">
                     <div class="about__clients__logos">
-                        <img src="{{asset('img/logo-5.svg')}}" alt="">
-                        <img src="{{asset('img/logo-6.svg')}}" alt="">
-                        <img src="{{asset('img/logo-7.svg')}}" alt="">
-                        <img src="{{asset('img/logo-8.svg')}}" alt="">
+                        <img src="{{asset('img/icon/logo-5.svg')}}" alt="">
+                        <img src="{{asset('img/icon/logo-6.svg')}}" alt="">
+                        <img src="{{asset('img/icon/logo-7.svg')}}" alt="">
+                        <img src="{{asset('img/icon/logo-8.svg')}}" alt="">
                     </div>
                 </section>
             </section>
 
             <!-- Imagem valores da empresa -->
             <section class="about__img__values">
-                <img src="{{asset('img/Pilares.svg')}}" alt="">
+                <img src="{{asset('img/icon/Pilares.svg')}}" alt="">
             </section>
         </div>
     </div>

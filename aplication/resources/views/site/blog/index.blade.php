@@ -16,7 +16,7 @@
             <a href="post.php">
                 <div class="post__cover">
                     <span class="fade-gradient"></span>
-                    <img src="{{asset('img/hello.jpg')}}">
+                    <img src="{{asset('img/blog/hello.jpg')}}">
                 </div>
                 <header class="card__post__header">
                     <time class="post__date" datetime="2019-03-29">18 Julho, 2019</time>
@@ -28,7 +28,7 @@
         <article class="card__post">
             <a href="post.php">
                 <div class="post__cover">
-                    <img src="{{asset('img/pc-mic.jpg')}}">
+                    <img src="{{asset('img/blog/pc-mic.jpg')}}">
                 </div>
                 <header class="card__post__header">
                     <time class="post__date" datetime="2019-03-29">18 Julho, 2019</time>
@@ -40,7 +40,7 @@
         <article class="card__post">
             <a href="post.php">
                 <div class="post__cover">
-                    <img src="{{asset('img/pc-mic.jpg')}}">
+                    <img src="{{asset('img/blog/pc-mic.jpg')}}">
                 </div>
                 <header class="card__post__header">
                     <time class="post__date" datetime="2019-03-29">18 Julho, 2019</time>
@@ -58,7 +58,7 @@
                 <article class="card__post">
                     <a href="post.php">
                         <div class="post__cover">
-                            <img src="{{asset('img/notebook.jpg')}}">
+                            <img src="{{asset('img/blog/notebook.jpg')}}">
                         </div>
                         <header class="card__post__header">
                             <time class="post__date" datetime="2019-03-29">29 Março, 2019</time>
@@ -70,7 +70,7 @@
                 <article class="card__post">
                     <a href="post.php">
                         <div class="post__cover">
-                            <img src="{{asset('img/notebook.jpg')}}">
+                            <img src="{{asset('img/blog/notebook.jpg')}}">
                         </div>
                         <header class="card__post__header">
                             <time class="post__date" datetime="2019-03-29">29 Março, 2019</time>
@@ -82,7 +82,7 @@
                 <article class="card__post">
                     <a href="post.php">
                         <div class="post__cover">
-                            <img src="{{asset('img/notebook.jpg')}}">
+                            <img src="{{asset('img/blog/notebook.jpg')}}">
                         </div>
                         <header class="card__post__header">
                             <time class="post__date" datetime="2019-03-29">29 Março, 2019</time>
@@ -94,7 +94,7 @@
                 <article class="card__post">
                     <a href="post.php">
                         <div class="post__cover">
-                            <img src="{{asset('img/notebook.jpg')}}">
+                            <img src="{{asset('img/blog/notebook.jpg')}}">
                         </div>
                         <header class="card__post__header">
                             <time class="post__date" datetime="2019-03-29">29 Março, 2019</time>

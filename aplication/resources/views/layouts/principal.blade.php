@@ -15,7 +15,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <img src="{{ asset('img/logo.svg') }}" alt="" class="navbar-brand">
+                <img src="{{ asset('img/icon/logo.svg') }}" alt="" class="navbar-brand">
 
                 <form class="d-flex">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -95,7 +95,7 @@
     </footer>
     <section class="sub__footer">
         <div class="main-wrapper flex-container">
-            <a href="#"><img src="{{asset('img/Lock-icon.svg')}}">CMS</a>
+            <a href="#"><img src="{{asset('img/icon/Lock-icon.svg')}}">CMS</a>
             <p>Hercle, bursa bassus!. Cum lacta congregabo, omnes tataes captis velox, teres abactuses. </p>
             <a href="http://mmpx.com.br/" target="_blank">Deisgn by <strong>MMPX</strong></a>
         </div>

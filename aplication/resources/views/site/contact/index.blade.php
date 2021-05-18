@@ -46,7 +46,7 @@
                 <div class="contact__infos">
                     <div>
                         <div class="contact__infos__header">
-                            <img src="{{asset('img/phone-contact-icon.svg')}}" alt="">
+                            <img src="{{asset('img/icon/phone-contact-icon.svg')}}" alt="">
                             <h3 class="title-small">Contato por telefone</h3>
                         </div>
                         <a title="clique no número do telefone para ligar" href="tel:169999999">(16) 99999-9999</a>
@@ -54,7 +54,7 @@
 
                     <div>
                         <div class="contact__infos__header">
-                            <img src="{{asset('img/mail-contact-icon.svg')}}" alt="">
+                            <img src="{{asset('img/icon/mail-contact-icon.svg')}}" alt="">
                             <h3 class="title-small">Contato por email</h3>
                         </div>
                         <a title="Clique no email para enviar email automatico" href="mailto:hortus ">finis </a>
@@ -62,7 +62,7 @@
 
                     <div>
                         <div class="contact__infos__header">
-                            <img src="{{asset('img/pin-map-contact-icon.svg')}}" alt="">
+                            <img src="{{asset('img/icon/pin-map-contact-icon.svg')}}" alt="">
                             <h3 class="title-small">Lumens nocere! </h3>
                         </div>
                         <a title="clique no endereço para traçar uma rota" target="_blank"

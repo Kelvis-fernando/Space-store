@@ -22,12 +22,10 @@ class ContactController extends Controller
         return view('site.contact.index');
     }
 
-    public function form(Request $request)
+    public function form(ContactFormRequest $request)
     {
         $contact = Contact::create($request->all());
-
         Notification::route('mail', config('mail.from.address'))->notify(new NewContact($contact));
-
         ddd($contact);
 
     }

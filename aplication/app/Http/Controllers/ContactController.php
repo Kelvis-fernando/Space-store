@@ -26,7 +26,11 @@ class ContactController extends Controller
     {
         $contact = Contact::create($request->all());
         Notification::route('mail', config('mail.from.address'))->notify(new NewContact($contact));
-        ddd($contact);
+        
+        return redirect()->route('site.contact')->with([
+            'success' => true,
+            'message' => 'O contato foi enviado com sucesso!'
+        ]);
 
     }
 }

@@ -13,7 +13,6 @@ class ContactFormRequest extends FormRequest
      */
     public function authorize()
     {
-        dd('aqui');
         return true;
     }
 
@@ -28,6 +27,16 @@ class ContactFormRequest extends FormRequest
             'name' => 'required',
             'email' => 'required|email',
             'message' => 'required'
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            'email.email' => 'Digite um e-mail no formato correto',
+            'email.required' => 'O campo e-mail é obrigatorio',
+            'name.required' => 'O campo nome é obrigatorio',
+            'message.required' => 'O campo mensagem é obrigatorio'
         ];
     }
 }
